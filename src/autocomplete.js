@@ -79,6 +79,8 @@ angular.module('google.places', [])
                         $scope.query = '';
                         controller.$setViewValue($scope.query);
                         controller.$render();
+
+                        $scope.$emit('g-places-autocomplete:select', null);
                     });
 
                     element.after($compile(btnClear)($scope));

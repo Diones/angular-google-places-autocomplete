@@ -43,6 +43,13 @@ Then you can use the directive on text inputs like so:
 <input type="text" g-places-autocomplete ng-model="myScopeVar" />
 ```
 
+You can handle autocomplete changes:
+
+When an address is selected:
+```javascript
+$scope.$on('g-places-autocomplete:select', function(event, newPlace) {});
+```
+
 The directive also supports the following _optional_ attributes:
 
 * forceSelection &mdash; forces the user to select from the dropdown. Defaults to `false`.
