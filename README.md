@@ -52,6 +52,7 @@ $scope.$on('g-places-autocomplete:select', function(event, newPlace) {});
 The directive also supports the following _optional_ attributes:
 
 * forceSelection &mdash; forces the user to select from the dropdown. Defaults to `false`.
+* clearButton &mdash; show button to clean the input search. Defaults to `false`.
 * options &mdash; See [google.maps.places.AutocompleteRequest object specification](https://developers.google.com/maps/documentation/javascript/reference#AutocompletionRequest).
 
 Examples
