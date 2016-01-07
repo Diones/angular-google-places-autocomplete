@@ -21,8 +21,10 @@ You'll probably also want the styles:
 
 ```html
 <link rel="stylesheet" href="/bower_components/angular-google-places-autocomplete/src/autocomplete.css">
+```
 
-<Ionic Icons - Just if you want to use clear button option>
+and Ionic Icons - Just if you want to use clear button option
+```html
 <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 ```
 
