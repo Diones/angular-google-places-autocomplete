@@ -45,7 +45,6 @@ Then you can use the directive on text inputs like so:
 
 You can handle autocomplete changes:
 
-When an address is selected:
 ```javascript
 $scope.$on('g-places-autocomplete:select', function(event, newPlace) {});
 ```
