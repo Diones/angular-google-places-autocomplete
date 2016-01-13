@@ -24,14 +24,14 @@
     text-align: right;
     display: block;
     /*background-image: url(//maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white2_hdpi.png);*/
-    background-image: url(//maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white2_hdpi.png);
+    background-image: url(../images/powered-by-google-on-white2_hdpi.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size: 104px 16px
 }
 
 .hdpi.pac-container:after {
-    background-image: url(//maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white2_hdpi.png);
+    background-image: url(../images/powered-by-google-on-white2_hdpi.png);
 }
 
 .pac-item {
@@ -73,12 +73,12 @@
     display: inline-block;
     vertical-align: top;
     /*background-image: url(//maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png);*/
-    background-image: url(//maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons_hdpi.png);
+    background-image: url(../images/autocomplete-icons_hdpi.png);
     background-size: 34px
 }
 
 .hdpi .pac-icon {
-    background-image: url(//maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons_hdpi.png);
+    background-image: url(../images/autocomplete-icons_hdpi.png);
 }
 
 .pac-icon-search {
